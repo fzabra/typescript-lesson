@@ -15,7 +15,7 @@ let dealership = new Dealership('Rua Jacob Emmerick', carList)
 console.log('Car List from dealership: \n', dealership.showCarList())
 
 /* Comprar carros */
-let client = new Customer('Steve', 'Fusca')
+let client = new Customer('Steve', 'Fusca', '')
 console.log('Steve want buy: ', client.provideFavoriteCar())
 
 /** Checar lista de carros */

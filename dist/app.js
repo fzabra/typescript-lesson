@@ -16,7 +16,7 @@ var dealership = new Dealership_1.default('Rua Jacob Emmerick', carList);
 /* Exibir lista de carros */
 console.log('Car List from dealership: \n', dealership.showCarList());
 /* Comprar carros */
-var client = new Customer_1.default('Steve', 'Fusca');
+var client = new Customer_1.default('Steve', 'Fusca', '');
 console.log('Steve want buy: ', client.provideFavoriteCar());
 /** Checar lista de carros */
 dealership.showCarList().map(function (car) {
