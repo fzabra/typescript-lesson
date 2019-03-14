@@ -3,9 +3,9 @@ import Car from './Car'
 export default class Customer{
     private name: string
     private favoriteCar: string
-    private car: Car
+    private car: any
 
-    constructor(name: string, favoriteCar: string, car: Car){
+    constructor(name: string, favoriteCar: string, car: any){
         this.name = name
         this.favoriteCar = favoriteCar
         this.car = car
