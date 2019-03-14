@@ -5,9 +5,10 @@ export default class Customer{
     private favoriteCar: string
     private car: Car
 
-    constructor(name: string, favoriteCar: string){
+    constructor(name: string, favoriteCar: string, car: Car){
         this.name = name
         this.favoriteCar = favoriteCar
+        this.car = car
     }
 
     public provideName(): string{
