@@ -17,14 +17,11 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 var Vehicle_1 = __importDefault(require("./Vehicle"));
-var Car = /** @class */ (function (_super) {
-    __extends(Car, _super);
-    function Car(carModel, carDoors) {
-        var _this = _super.call(this) || this;
-        _this.carModel = carModel;
-        _this.carDoors = carDoors;
-        return _this;
+var Motocycle = /** @class */ (function (_super) {
+    __extends(Motocycle, _super);
+    function Motocycle() {
+        return _super !== null && _super.apply(this, arguments) || this;
     }
-    return Car;
+    return Motocycle;
 }(Vehicle_1.default));
-exports.default = Car;
+exports.default = Motocycle;
